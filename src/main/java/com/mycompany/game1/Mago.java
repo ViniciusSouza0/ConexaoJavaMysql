@@ -4,19 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-// Subclasse Mago que herda de Personagem
-class Mago extends Personagem {
-private List<Item> inventario;
-private List<Poder> poderes;
+        // Subclasse Mago que herda de Personagem
+        class Mago extends Personagem {
+        private List<Item> inventario;
+        private List<Poder> poderes;
 
-public Mago(String nome, int vida) {
-super(nome, vida);
-this.inventario = new ArrayList<>();
-this.poderes = new ArrayList<>();
+        public Mago(String nome, int vida) {
+        super(nome, vida);
+        this.inventario = new ArrayList<>();
+        this.poderes = new ArrayList<>();
 }
 
     public void adicionarItem(Item item) {
-        inventario.add(item);
+        inventario.add(item); //Dentro do inventário adicionamos item e poderes
     }
 
     public void adicionarPoder(Poder poder) {

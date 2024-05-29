@@ -4,6 +4,7 @@ package com.mycompany.game1;
 
 public class Poder {
     
+        
     private String nome;
     public Poder(String nome) {
         this.nome = nome;

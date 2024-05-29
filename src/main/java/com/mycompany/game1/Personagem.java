@@ -3,6 +3,7 @@ package com.mycompany.game1;
 
 // Classe base para o personagem
 public class Personagem {
+    
 protected String nome;
 protected int vida;
 
@@ -18,5 +19,7 @@ System.out.println("Vida: " + vida);
 
 }
 }
+
+
 
 

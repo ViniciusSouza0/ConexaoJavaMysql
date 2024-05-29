@@ -1,11 +1,8 @@
 package com.mycompany.game1;
-
 import java.util.Scanner;
-
-
 public class Game1 {
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         // Criando um Mago
@@ -17,8 +14,8 @@ public class Game1 {
         Mago mago = new Mago(nomeMago, vidaMago);
 
         // Adicionando itens e poderes ao Mago
-        mago.adicionarItem(new Item("Poção de Cura", 20));
-        mago.adicionarItem(new Item("Poção de Mana", 10));
+        mago.adicionarItem (new Item("Poção de Cura", 20));
+        mago.adicionarItem (new Item("Poção de Mana", 10));
         mago.adicionarPoder(new Poder("Bola de Fogo"));
         mago.adicionarPoder(new Poder("Raio"));
         mago.adicionarPoder(new Poder("Escudo Mágico"));
