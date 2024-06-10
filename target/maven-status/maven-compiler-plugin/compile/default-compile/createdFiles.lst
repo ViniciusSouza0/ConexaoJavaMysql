@@ -1,6 +1,7 @@
 com\mycompany\game1\Item.class
 com\mycompany\game1\Personagem.class
 com\mycompany\game1\SQLExceptionstatic.class
+com\mycompany\game1\Game2.class
 com\mycompany\game1\Poder.class
 com\mycompany\game1\Mago.class
 com\mycompany\game1\Conexao.class
