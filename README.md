@@ -36,5 +36,19 @@ Dependendo do número que você escolher, irá aparecer o seguinte status.
 >wizard usou Poção de Cura.  
 >Vida atual: 120
 
-( A **Mana** aumenta 10 de vida. )  
-( A **Cura** aumenta 20 de vida. )
+_( A **Mana** aumenta 10 de vida. )_  
+_( A **Cura** aumenta 20 de vida. )_
+
+Após isso, o código entrará na seleção de escolher poderes e mostrará os poderes disponíveis para uso, EXEMPLO:
+>Escolha um poder para usar:  
+>Poderes de wizard:
+> 
+>0. Bola de Fogo
+>1. Raio
+>2. Escudo Mágico
+>3. Teleporte
+
+Dependendo do poder que você escolher, mostrará na tela, que o poder escolhido foi usado. EXEMPLO:  
+>Teleporte foi usado!
+
+Assim, encerrando nosso código.
