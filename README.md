@@ -52,3 +52,42 @@ Dependendo do poder que você escolher, mostrará na tela, que o poder escolhido
 >Teleporte foi usado!
 
 Assim, encerrando nosso código.
+
+# Pré-requisitos  
+Java 8 ou superior  
+MySQL  
+Conector JDBC para MySQL  
+
+# Configuração do Banco de Dados
+```sql
+create database rpg;  
+use rpg;   
+
+INSERT INTO itens (nome, efeito, mago_nome) VALUES ("item",1, "nome");  
+insert into magos (nome,vida) values ("nome",5);  
+desc poderes;  
+
+CREATE TABLE magos (
+    nome VARCHAR(100) PRIMARY KEY,
+    vida INT
+);  
+
+CREATE TABLE itens (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    efeito INT,
+    mago_nome VARCHAR(100),
+    FOREIGN KEY (mago_nome) REFERENCES magos(nome)
+);  
+
+CREATE TABLE poderes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    mago_nome VARCHAR(100),
+    FOREIGN KEY (mago_nome) REFERENCES magos(nome)
+);  
+
+select * from poderes;
+select * from itens;
+select * from magos; 
+```
