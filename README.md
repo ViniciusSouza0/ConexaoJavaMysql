@@ -53,6 +53,27 @@ Dependendo do poder que você escolher, mostrará na tela, que o poder escolhido
 
 Assim, encerrando nosso código.
 
+# Estrutura do Projeto 
+O projeto é composto pelas seguintes classes:  
+
+```Game1```: Classe principal onde a execução do programa começará.
+
+---
+```Poder```:  esta classe possui uma variável de instância privada 'nome', um construtor que inicializa esta variável, um método 'usar', que imprime uma mensagem na tela e um método getter getNome que permite acesso externo à 'nomevariável'.  
+
+---
+```Mago```: Mago é uma subclasse de Personagem, O construtor Mago inicializa um mago com um nome e quantidade de vida específicos, além de inicializar suas listas de inventário e poderes como listas vazias. Após isso, chama o método salvar() para salvar o mago no banco de dados.  
+
+---
+```Item```: Esta classe possui duas variáveis ​​de instância privadas nome e efeito, um construtor que inicializa essas variáveis, e dois métodos getter, getNome e getEfeito. Que permitem acesso externo a essas 
+variáveis.  
+
+---
+```Conexão```:  Serve para fazer a conexão do java com a tabela criada no MySQLworkbanch.  
+
+---
+```Personagem```: Responsável por inicializar um objeto Personagem com um nome e um valor de vida especificados.  
+
 # Pré-requisitos  
 Java 8 ou superior  
 MySQL  
