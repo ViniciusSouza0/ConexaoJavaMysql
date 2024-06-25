@@ -91,3 +91,13 @@ select * from poderes;
 select * from itens;
 select * from magos; 
 ```
+# Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.  
+
+# Licença  
+Este projeto está licenciado sob a MIT License.  
+
+# Contato
+
+Autor: Vinícius Souza da Silva  
+E-mail: vinicius.s.silveira.2015@gmail.com
